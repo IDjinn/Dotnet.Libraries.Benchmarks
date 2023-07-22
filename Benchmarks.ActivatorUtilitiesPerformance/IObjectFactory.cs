@@ -1,6 +1,6 @@
 namespace Benchmarks.ActivatorUtilitiesPerformance;
 
-public class IObjectFactory
+public interface IObjectFactory
 {
-    
+    public TheObject CreateObject(string name, int age, string[] tags);
 }
